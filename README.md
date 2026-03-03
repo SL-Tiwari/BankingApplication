@@ -7,29 +7,29 @@ This project demonstrates strong understanding of OOP, Collections, layered arch
 The Banking Application allows users to perform basic banking operations through a console menu interface.
 The system is designed using a layered architecture:
 
-App Layer (Main class)
-Service Layer (Business logic)
-Repository Layer (In-memory data storage)
-Domain Layer (Entity classes)
-Utility Layer (Validations)
-Exception Layer (Custom exceptions)
+a. App Layer (Main class)
+b. Service Layer (Business logic)
+c. Repository Layer (In-memory data storage)
+d. Domain Layer (Entity classes)
+e. Utility Layer (Validations)
+f. Exception Layer (Custom exceptions)
 
 ## 🚀 Features
-Open Account
-Deposit Money
-Withdraw Money
-Transfer Money
-View Account Statement
-List All Accounts
-Search Account by Customer Name
-Exit Application
+1. Open Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Statement
+6. List All Accounts
+7. Search Account by Customer Name
+8. Exit Application
 
 ##  🛠 Tech Stack
-Java (Core Java)
-OOP Principles
-Java Collections Framework (HashMap, List)
-Custom Exceptions
-Enum
+1. Java (Core Java)
+2. OOP Principles
+3. Java Collections Framework (HashMap, List)
+4. Custom Exceptions
+5. Enum
 
 ##  📂 Project Structure
 banking-application/
@@ -63,40 +63,38 @@ banking-application/
 ## 🧠 Concepts Implemented
 
 ### 1️⃣ Object-Oriented Programming
-Encapsulation
-Abstraction (via BankService interface)
-Polymorphism (BankServiceImpl)
-Separation of Concerns
+a. Encapsulation
+b. Abstraction (via BankService interface)
+c. Polymorphism (BankServiceImpl)
+d. Separation of Concerns
 
 ### 2️⃣ Collections Framework
-HashMap for storing Accounts and Customers
-List for maintaining transaction history
+a. HashMap for storing Accounts and Customers
+b. List for maintaining transaction history
 
 ### 3️⃣ Enum
 TransactionType (DEPOSIT, WITHDRAW, TRANSFER)
 
 ### 4️⃣ Custom Exceptions
-AccountNotFoundException
-InsufficientFundsException
-ValidationException
+a. AccountNotFoundException
+b. InsufficientFundsException
+c. ValidationException
 
 ### 5️⃣ Input Validation
-Name validation
-Email validation
-Amount validation
-Account type validation
+a. Name validation
+b. Email validation
+c. Amount validation
+d. Account type validation
 
 ##  💾 Data Storage
-
 All data is stored in memory using HashMap.
 
 ⚠️ Note: Since this project does not use a database, data will be lost when the application stops.
 
 ### ▶️ How to Run
-
-Clone the repository
-git clone <your-repository-url>
-Open the project in IntelliJ IDEA / Eclipse
+a. Clone the repository
+b. git clone <your-repository-url>
+c. Open the project in IntelliJ IDEA / Eclipse
 
 Run:
 Main.java
@@ -104,12 +102,12 @@ Main.java
 Use the console menu to perform banking operations.
 
 ##  📈 Future Enhancements
-Add MySQL database integration
-Convert to Spring Boot REST API
-Add Logging (SLF4J / Log4j)
-Add Unit Testing (JUnit & Mockito)
-Implement Authentication
-Add File-based persistence
+1. Add MySQL database integration
+2. Convert to Spring Boot REST API
+3. Add Logging (SLF4J / Log4j)
+4. Add Unit Testing (JUnit & Mockito)
+5. Implement Authentication
+6. Add File-based persistence
 
 ## 🎯 Learning Outcomes
 This project demonstrates:
