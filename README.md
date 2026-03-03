@@ -73,7 +73,7 @@ a. HashMap for storing Accounts and Customers
 b. List for maintaining transaction history
 
 ### 3️⃣ Enum
-TransactionType (DEPOSIT, WITHDRAW, TRANSFER)
+a. TransactionType (DEPOSIT, WITHDRAW, TRANSFER)
 
 ### 4️⃣ Custom Exceptions
 a. AccountNotFoundException
